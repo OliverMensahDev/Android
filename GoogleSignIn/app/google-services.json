@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "572186105842",
+    "firebase_url": "https://simplesurvey-3c862.firebaseio.com",
+    "project_id": "simplesurvey-3c862",
+    "storage_bucket": "simplesurvey-3c862.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572186105842:android:22d4251817496158",
+        "android_client_info": {
+          "package_name": "com.example.olivermensah.googlesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572186105842-vjqip0njd1fdqgq7c41ki4q3ge8m5nnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.olivermensah.googlesignin",
+            "certificate_hash": "361e37a4265809aa4f48e091d6cef26186c9cb8f"
+          }
+        },
+        {
+          "client_id": "572186105842-1gf7lqc44u7qvffmkdrhein5li9vtugv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp93R0GrmoejQHczZwLBykuVl42kJqwfM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572186105842-1gf7lqc44u7qvffmkdrhein5li9vtugv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

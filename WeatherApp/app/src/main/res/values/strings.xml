@@ -1,0 +1,57 @@
+<resources>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">Weather App</string>
+    <string name="change_city">Change city</string>
+
+    <!-- Put your own APP ID here -->
+    <string name="open_weather_maps_app_id">11111</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+
+    <!-- Add Location Fragment-->
+    <string name="add_location_fragment_title">Your Locations</string>
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="empty_location_alert">Location can not be empty.</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_title">Settings</string>
+    <string name="temperature_unit">Temperature Unit</string>
+    <string name="centigrade">C</string>
+    <string name="fahrenheit">F</string>
+    <string name="about">About</string>
+    <string name="auto_location">Auto Location</string>
+    <string name="about_content">This Application is created as a part of Eduonix tutorial on Android M Ultimate Android App Development.
+        \n\nThis application uses Open Weather Api for fetching Weather Data.
+        \n\nSource code is avaiable under Github.
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+
+    <!-- Weather Now Fragment-->
+    <string name="no_network_title">No Network Available</string>
+    <string name="no_network_message">There is no netwok available.\n\n Please check your device network connection</string>
+    <string name="fetch_weather_details">Fetching weather details...</string>
+    <string name="error_title">Error</string>
+    <string name="error_message">An unexpected error occured</string>
+
+
+
+</resources>

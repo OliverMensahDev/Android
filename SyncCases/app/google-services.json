@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "623050860140",
+    "firebase_url": "https://finalproject-1db8e.firebaseio.com",
+    "project_id": "finalproject-1db8e",
+    "storage_bucket": "finalproject-1db8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623050860140:android:849084a97fbf16da",
+        "android_client_info": {
+          "package_name": "com.github.olivermensah.synccases"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623050860140-2uvfkgv7fuugp9l9hv4cbghbtfrsk8es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDwgxeQLMiTAknYC8zBp8DlvCPuCQ3rW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

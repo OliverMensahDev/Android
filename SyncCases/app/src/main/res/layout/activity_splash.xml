@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.olivermensah.synccases.SignedInActivity">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/sync_logo"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SyncCases - Be Concern with Ethics"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/Logo"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        android:layout_below="@+id/Logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+</RelativeLayout>
