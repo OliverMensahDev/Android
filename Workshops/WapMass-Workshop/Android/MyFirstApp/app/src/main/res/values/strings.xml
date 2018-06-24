@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Our First App</string>
+    <string name="hello">Hello World</string>
+    <string name="name">Oliver Mensah</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>

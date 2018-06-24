@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:background="#000"
+        android:orientation="vertical"
+        android:id="@id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_list_white_18dp" />
+    </LinearLayout>
+    <EditText
+        android:layout_below="@id/icon"
+        android:hint="Add Greetings"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/curvy_button"
+        android:id="@+id/greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_below="@id/greeting"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+    <Button
+        android:id="@+id/cancel"
+        android:layout_below="@id/greeting"
+        android:layout_toLeftOf="@id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel" />
+
+    <ImageView
+        android:layout_below="@id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"/>
+
+
+</RelativeLayout>

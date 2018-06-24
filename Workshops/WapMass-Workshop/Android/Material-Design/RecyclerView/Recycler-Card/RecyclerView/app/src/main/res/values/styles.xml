@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MaterialTheme" parent="ParentMaterialTheme">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="ParentMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item> <!-- Color of Toolbar Title-->
+        <item name="android:textColorSecondary">@android:color/white</item><!--Color for overlay menu. thus the three dots -->
+    </style>
+
+    <style name="PopTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#9E9E9E</item> <!-- color of items-->
+        <item name="android:background">#fffcfff6</item> <!-- background-->
+    </style>
+
+</resources>

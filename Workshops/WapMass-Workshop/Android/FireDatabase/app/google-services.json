@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "208178396728",
+    "firebase_url": "https://wapmass-project.firebaseio.com",
+    "project_id": "wapmass-project",
+    "storage_bucket": "wapmass-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208178396728:android:8ca9132ed0e8a91d",
+        "android_client_info": {
+          "package_name": "wapmass.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208178396728-bjuj01ff15t563hu2be5ug3smvonvohd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wapmass.authentication",
+            "certificate_hash": "bbea87499f7a6992abc8fb3264b40788cd38cf47"
+          }
+        },
+        {
+          "client_id": "208178396728-qifnidqpuhg398fl6oiteep4lbd2eukq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "208178396728-qifnidqpuhg398fl6oiteep4lbd2eukq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCArZtKZ3-4HyikpPZ6Fs5VIZVo-Jadg9Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208178396728-qifnidqpuhg398fl6oiteep4lbd2eukq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208178396728:android:10d14fd63512b544",
+        "android_client_info": {
+          "package_name": "wapmass.firedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208178396728-lh1a0hvtc7fd7lbph8ns88drrvqkg2di.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wapmass.firedatabase",
+            "certificate_hash": "bbea87499f7a6992abc8fb3264b40788cd38cf47"
+          }
+        },
+        {
+          "client_id": "208178396728-qifnidqpuhg398fl6oiteep4lbd2eukq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "208178396728-qifnidqpuhg398fl6oiteep4lbd2eukq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCArZtKZ3-4HyikpPZ6Fs5VIZVo-Jadg9Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208178396728-qifnidqpuhg398fl6oiteep4lbd2eukq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
