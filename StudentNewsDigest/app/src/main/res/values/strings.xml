@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Student News Digest</string>
+    <string name="otherScreenEditTextEmailHint"><font size="20">Email</font></string>
+    <string name="otherScreenEditTextPasswordHint"><font size="20">Password</font></string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>

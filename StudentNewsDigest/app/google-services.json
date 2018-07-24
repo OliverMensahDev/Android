@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "86920817173",
+    "firebase_url": "https://nsnapp-eb13f.firebaseio.com",
+    "project_id": "nsnapp-eb13f",
+    "storage_bucket": "nsnapp-eb13f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86920817173:android:229b67aaa7d97ce1",
+        "android_client_info": {
+          "package_name": "bawo.studentnewsdigest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86920817173-7ttpeut78ea781jvefprj2d9ilo7fg74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bawo.studentnewsdigest",
+            "certificate_hash": "7439624e9605652814af4fa48332dc4961260eaf"
+          }
+        },
+        {
+          "client_id": "86920817173-n4e87218u1g8rmc0c2aad9hu1gijm8cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn0C_7JJmBw561DxxXeCxWfZXXs_kCf0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86920817173-n4e87218u1g8rmc0c2aad9hu1gijm8cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
