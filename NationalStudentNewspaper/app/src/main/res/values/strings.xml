@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">National Student Newspaper</string>
+    <string name="otherScreenEditTextEmailHint"><font size="20">Email</font></string>
+    <string name="otherScreenEditTextPasswordHint"><font size="20">Password</font></string>
+</resources>

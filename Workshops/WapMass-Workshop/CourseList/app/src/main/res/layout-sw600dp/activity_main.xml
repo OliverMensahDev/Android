@@ -5,12 +5,12 @@
     android:id="@+id/myContainer"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context="fragmentmycourse.buildappswithpaulo.com.mycourselistfragment.MainActivity">
+    tools:context=".MainActivity">
 
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="fragmentmycourse.buildappswithpaulo.com.mycourselistfragment.CourseListFragment"
+        android:name="wapmass.courselist.CourseListFragment"
         android:layout_width="0dp"
         android:layout_weight="1"
         tools:layout="@layout/course_list_fragment"

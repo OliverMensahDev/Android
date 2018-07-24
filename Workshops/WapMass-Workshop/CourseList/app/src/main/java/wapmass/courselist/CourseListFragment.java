@@ -1,7 +1,7 @@
 package wapmass.courselist;
 
 import android.content.Context;
-import android.content.Intent;
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ListFragment;
@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.List;
 
@@ -41,7 +40,7 @@ public class CourseListFragment extends ListFragment{
                 R.layout.course_listitem, courses);
 
         for (Course course: courses) {
-            Log.d("Coursessssss===", course.getCourseName());
+            Log.d("Course", course.getCourseName());
         }
 
         setListAdapter(adapter);
@@ -69,16 +68,6 @@ public class CourseListFragment extends ListFragment{
     public void onListItemClick(ListView l, View v, int position, long id) {
         Course course = courses.get(position);
         this.activity.onItemSelected(course, position );
-
-
-
-
-
-//        Toast.makeText(getActivity(), "Name: " + course.getCourseName(), Toast.LENGTH_LONG)
-//                .show();
-
-
-
     }
 
     @Override
