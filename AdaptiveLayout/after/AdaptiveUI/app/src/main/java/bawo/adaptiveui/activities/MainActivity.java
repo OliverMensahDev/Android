@@ -1,10 +1,11 @@
-package bawo.adaptiveui;
+package bawo.adaptiveui.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import bawo.adaptiveui.R;
 import bawo.adaptiveui.adapter.PostAdapter;
 import bawo.adaptiveui.data.PostData;
 
