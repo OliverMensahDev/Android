@@ -1,6 +1,8 @@
 package bawo.studentnewsdigest.model;
 
-public class Article {
+import java.io.Serializable;
+
+public class Article  implements Serializable{
     private String title;
     private String details;
     private String image;
@@ -27,5 +29,14 @@ public class Article {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "title='" + title + '\'' +
+                ", details='" + details + '\'' +
+                ", image='" + image + '\'' +
+                '}';
     }
 }

@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <fragment
+        android:id="@+id/list_fragment"
+        android:name="bawo.adaptiveui.fragments.ListFragment"
+        tools:layout="@layout/list_fragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </android.support.v7.widget.RecyclerView>
+        android:layout_height="match_parent"/>
 </android.support.constraint.ConstraintLayout>

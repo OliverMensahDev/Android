@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import bawo.adaptiveui.InterCommunicator;
 import bawo.adaptiveui.activities.DetailsActivity;
 import bawo.adaptiveui.R;
 
@@ -50,23 +51,23 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.RowViewClass> 
     }
 
     public class RowViewClass extends  RecyclerView.ViewHolder{
-        //instantiate our row_item views
         private TextView title;
         private ImageView image;
-        public RowViewClass(View rowList , Context ctx) {
+        public RowViewClass(View rowList , final Context ctx) {
             super(rowList);
             context = ctx;
             title = rowList.findViewById(R.id.title);
             image = rowList.findViewById(R.id.image);
 
+
             rowList.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(context, DetailsActivity.class);
-                    intent.putExtra("position", getAdapterPosition());
-                    context.startActivity(intent);
+                    InterCommunicator myCommunicator = (InterCommunicator) ctx;
+                    myCommunicator.sendCurrentItemPosition(getAdapterPosition());
                 }
             });
+
         }
 
     }

@@ -21,7 +21,8 @@
             android:name=".activities.DashboardActivity"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activities.PostArticle"></activity>
+        <activity android:name=".activities.PostArticle" />
+        <activity android:name=".activities.DetailActivity"></activity>
     </application>
 
 </manifest>

@@ -4,10 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
@@ -16,31 +19,40 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
+
+import bawo.studentnewsdigest.adapters.ArticleAdapter;
 import bawo.studentnewsdigest.fragments.NavigationDrawerFragment;
 import bawo.studentnewsdigest.R;
+import bawo.studentnewsdigest.model.Article;
 import bawo.studentnewsdigest.util.FirebaseUtil;
 
 public class DashboardActivity extends AppCompatActivity {
     private Toolbar toolbar;
+    private ProgressBar progressBar;
+    private ArrayList<Article> articles;
+    private ArticleAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         init();
-
     }
 
     private void init() {
-        setupToolbar();
-        setupDrawer();
-        checkingAdmin(FirebaseUtil.setupAuth().getUid());
-
+        articles = new ArrayList<>();
+        setupWideget();
     }
 
-    private void setupToolbar() {
+    private void setupWideget() {
         toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle(R.string.app_name);
+
+        progressBar = findViewById(R.id.dashboard_progressBar);
+
+        setupDrawer();
+        setupRecyclerView();
     }
 
     private void setupMenu() {
@@ -73,13 +85,12 @@ public class DashboardActivity extends AppCompatActivity {
 
 
     private void setupRecyclerView() {
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
-//        RecyclerAdapter adapter = new RecyclerAdapter(this, LandscapeData.getData());
-//        recyclerView.setAdapter(adapter);
-//        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-//        linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-//        recyclerView.setLayoutManager(linearLayoutManager);
-//        recyclerView.setItemAnimator(new DefaultItemAnimator());// the recyclerview  uses this by default
+        RecyclerView recyclerView = findViewById(R.id.dashboard_recyclerView);
+        adapter = new ArticleAdapter(this, articles);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        getCourses();
     }
 
     private void checkingAdmin(String uid) {
@@ -94,27 +105,38 @@ public class DashboardActivity extends AppCompatActivity {
             public void onCancelled(DatabaseError databaseError) {}
         });
     }
-//
-//    private void getCourses(){
-//        showDialog();
-//        mDatabaseReference.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(DataSnapshot dataSnapshot) {
-//                if(dataSnapshot.exists()){
-//                    for(DataSnapshot singleSnapshot:  dataSnapshot.getChildren()){
-//                        Course course = singleSnapshot.getValue(Course.class);
-//                        Log.d("data", course.toString());
-//                        courses.add(course);
-//                        adapter.notifyDataSetChanged();
-//                    }
-//                }
-//                hideDialog();
-//            }
-//
-//            @Override
-//            public void onCancelled(DatabaseError databaseError) {
-//                hideDialog();
-//            }
-//        });
-//    }
+
+    private void getCourses(){
+        showDialog();
+        checkingAdmin(FirebaseUtil.setupAuth().getUid());
+        FirebaseUtil.setupDatabase("articles").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if(dataSnapshot.exists()){
+                    for(DataSnapshot singleSnapshot:  dataSnapshot.getChildren()){
+                        Article article = singleSnapshot.getValue(Article.class);
+                        Log.d("article", article.toString());
+                        articles.add(article);
+                        adapter.notifyDataSetChanged();
+                    }
+                }
+                hideDialog();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                hideDialog();
+            }
+        });
+    }
+
+    private void showDialog(){
+        progressBar.setVisibility(View.VISIBLE);
+    }
+
+    private void hideDialog(){
+        if(progressBar.getVisibility() == View.VISIBLE){
+            progressBar.setVisibility(View.INVISIBLE);
+        }
+    }
 }
