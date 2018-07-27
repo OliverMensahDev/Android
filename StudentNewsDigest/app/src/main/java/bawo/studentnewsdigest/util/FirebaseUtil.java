@@ -16,12 +16,10 @@ public class FirebaseUtil {
     private static DatabaseReference databaseReference;
     private static FirebaseAuth firebaseAuth;
     private static FirebaseStorage firebaseStorage;
-    public static boolean isAdmin;
 
     public static DatabaseReference setupDatabase(String ref){
         if(firebaseDatabase == null){
             firebaseDatabase = FirebaseDatabase.getInstance();
-
         }
         databaseReference = firebaseDatabase.getReference(ref);
         return databaseReference;

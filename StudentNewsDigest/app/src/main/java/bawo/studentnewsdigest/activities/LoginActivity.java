@@ -1,6 +1,8 @@
 package bawo.studentnewsdigest.activities;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -36,6 +38,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button loginButton;
     private TextView resetPasswordLink, registerLink, resendConfirmationLink;
     private ProgressBar progressBar;
+    private SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -155,6 +158,10 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        if(isRemeberedMe()){
+            startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
+            finish();
+        }
         FirebaseUser user = FirebaseUtil.setupAuth().getCurrentUser();
         if(user != null) {
             if(user.isEmailVerified()){
@@ -179,10 +186,12 @@ public class LoginActivity extends AppCompatActivity {
                                     finish();
                                 }else{
                                     hideDialog();
+                                    setuppRememberMe();
                                     Toast.makeText(LoginActivity.this, "Please Make sure your email is verified ", Toast.LENGTH_LONG).show();
                                 }
                             }
                         } else {
+                            hideDialog();
                             // If sign in fails, display a message to the user.
                             Log.w("MainActivity", "signInWithEmail:failure", task.getException());
                             Toast.makeText(LoginActivity.this, "Authentication failed.",
@@ -220,6 +229,21 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this, "Can't connect to mapping services", Toast.LENGTH_SHORT).show();
         }
         return false;
+    }
+
+
+    private void setuppRememberMe(){
+        sharedPreferences = getPreferences(Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("loggedIn", "true");
+        editor.apply();
+
+    }
+
+    private boolean isRemeberedMe(){
+        sharedPreferences = getPreferences(Context.MODE_PRIVATE);
+        String rememberMe = sharedPreferences.getString("loggedIn", "N/A");
+        return rememberMe =="true" ;
     }
 
 }

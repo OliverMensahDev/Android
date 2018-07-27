@@ -1,8 +1,10 @@
 package bawo.studentnewsdigest.adapters;
 
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -54,7 +56,12 @@ public class NavigationDrawerAdapter  extends RecyclerView.Adapter<NavigationDra
                         break;
                     case 2:
                         FirebaseUtil.setupAuth().signOut();
+                        SharedPreferences preferences = context.getSharedPreferences("loggedIn",Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = preferences.edit();
+                        editor.clear();
+                        editor.apply();
                         context.startActivity(new Intent(context, LoginActivity.class));
+                        ((Activity)v.getContext()).finish();
                         break;
                 }
             }
