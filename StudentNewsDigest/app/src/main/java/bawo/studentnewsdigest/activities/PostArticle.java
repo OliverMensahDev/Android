@@ -23,7 +23,10 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -47,6 +50,7 @@ public class PostArticle extends AppCompatActivity {
     private static final double MB = 1000000.0;
     private byte[] mBytes;
     private double progress;
+    private String mserverKey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -208,6 +212,22 @@ public class PostArticle extends AppCompatActivity {
         }else{
             Toast.makeText(this, "Image is too Large", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private void getServerKey(){
+        FirebaseUtil.setupDatabase("server").orderByValue().addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                DataSnapshot singleSnapshot = dataSnapshot.getChildren().iterator().next();
+                mserverKey = singleSnapshot.getValue().toString();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+        
     }
 
     private void showDialog(){

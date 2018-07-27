@@ -184,7 +184,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void saveUser(User user){
-        FirebaseUtil.setupDatabase("users").push().setValue(user).
+        FirebaseUtil.setupDatabase("users").child(FirebaseUtil.setupAuth().getCurrentUser().getUid()).setValue(user).
                 addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {

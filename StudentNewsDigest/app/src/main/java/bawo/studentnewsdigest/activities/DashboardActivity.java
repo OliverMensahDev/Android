@@ -18,6 +18,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.ArrayList;
 
@@ -37,6 +38,7 @@ public class DashboardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+        initFCM();
         init();
     }
 
@@ -139,4 +141,17 @@ public class DashboardActivity extends AppCompatActivity {
             progressBar.setVisibility(View.INVISIBLE);
         }
     }
+
+    private  void initFCM(){
+        String token = FirebaseInstanceId.getInstance().getToken();
+        sendTokenToServer(token);
+    }
+
+    private void sendTokenToServer(String token) {
+        FirebaseUtil.setupDatabase("users")
+                .child(FirebaseUtil.setupAuth().getCurrentUser().getUid())
+                .child(getString(R.string.field_messaging_token))
+                .setValue(token);
+    }
+
 }

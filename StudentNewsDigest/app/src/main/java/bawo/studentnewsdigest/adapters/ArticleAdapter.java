@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -34,10 +35,18 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.MyViewHo
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ArticleAdapter.MyViewHolder holder, int position) {
-        Article article = articles.get(position);
-        holder.textView.setText(article.getTitle());
-        Picasso.get().load(article.getImage()).into(holder.imageView);
+    public void onBindViewHolder(@NonNull final ArticleAdapter.MyViewHolder holder, int position) {
+        final Article article = articles.get(position);
+        Picasso.get().load(article.getImage()).into(holder.imageView, new Callback() {
+            @Override
+            public void onSuccess() {
+                holder.textView.setText(article.getTitle());
+            }
+            @Override
+            public void onError(Exception e) {
+
+            }
+        });
     }
 
     @Override
