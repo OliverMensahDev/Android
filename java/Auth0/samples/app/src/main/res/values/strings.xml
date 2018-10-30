@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">User Profile</string>
+    <string name="username">Name: %1$s</string>
+    <string name="useremail">Email: %1$s</string>
+    <string name="userCountry">Country: %1$s</string>
+    <string name="edit_hint">Add the country…</string>
+    <string name="edit">Edit Profile</string>
+    <string name="save">Save Changes</string>
+    <string name="cancel">Cancel Changes</string>
+    <string name="login_again">Log In Again</string>
+    <string name="login">Log In</string>
+    <string name="request_credentials_title">Authenticate to continue</string>
+    <string name="com_auth0_client_id">ET2D7JDnBjaltPYiVv9Jl5SCijMz0rSC</string>
+    <string name="com_auth0_domain">olivermensah96.au.auth0.com</string>
+</resources>
