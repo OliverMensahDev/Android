@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    >
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+
+    <TextView
+        android:id="@+id/memoryUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="top|center"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        tools:text="127 mb" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center">
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:text="Bad For Loop"
+            android:textColor="#fff"
+            android:background="@color/red"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:text="Good For Loop"
+            android:textColor="#fff"
+            android:background="@color/blue"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:text="Green"
+            android:textColor="#fff"
+            android:background="@color/green"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:text="Red"
+            android:textColor="#fff"
+            android:background="@color/yellow"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

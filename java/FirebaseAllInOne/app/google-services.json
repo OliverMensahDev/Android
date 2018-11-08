@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "198930384641",
+    "firebase_url": "https://fir-allinone-95ccd.firebaseio.com",
+    "project_id": "fir-allinone-95ccd",
+    "storage_bucket": "fir-allinone-95ccd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198930384641:android:2c3d6cc39b176541",
+        "android_client_info": {
+          "package_name": "com.agroinnova.firebaseallinone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198930384641-tpi8i6t493f50lt3hslk8rhc85m8ft9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agroinnova.firebaseallinone",
+            "certificate_hash": "a778fea831205cc03413bd9d2c3cee9bc0dffc10"
+          }
+        },
+        {
+          "client_id": "198930384641-ff1e0lpefk5mp7bb3nl037sbpn607430.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQmdESp6482wPF9hmetU6DaohLIUf7LVs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198930384641-ff1e0lpefk5mp7bb3nl037sbpn607430.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

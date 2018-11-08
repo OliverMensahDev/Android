@@ -1,0 +1,7 @@
+#Thu Nov 08 20:13:25 GMT 2018
+base.0=/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18e38fabf476c16c752c0c3727cbf11976c3ae25
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b77e58cc3f5ef83f3ec62027140dd4e3e4a09391/classes.dex
+base.1=/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b77e58cc3f5ef83f3ec62027140dd4e3e4a09391
+file.0=/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18e38fabf476c16c752c0c3727cbf11976c3ae25/classes.dex

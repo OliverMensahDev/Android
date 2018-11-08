@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/c7d259fa20d4ae138fe99ab9e2b718e1477b912c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1d1d467a87c66619a8c6d9a2aafdcc9799c4582e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/a365a9869f42993cc12cb35f049c0d98a3be2a24/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0df8b4a9cb304ad97711a8cc09b7c51614f2f047/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/b5a72b80a2b73e7b853c5b7ca89314ab28823423/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_312e01a9210e14a522427405d1f088b7fd8099e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_5f178fbd5b8482e495779e0b71fd560c21c7e39a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/4c3865dd96231410772785c67c63e43c7886d68c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2ff7351ad1c4bb338437ea9fc1801ce100e4debc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/96e16358b1606ebcca675a0e7d41883a15770c92/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_53924b6415fa6208684bb2bd68f9b43aebe220ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/232a785c28351f1747be739cc3cbafd7968c3df9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e939b662570293ea25e743e8a34d27c2cb7284cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/0ce536252f0843536c3fa62dcacac39b95eddea5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d611dee975d759e5585125647a25db080126b1de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/790cf2acf7c0bcd519afd63fe1786a07940c3f98/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1395232a7eddc612029353b3c953cb0fced71076">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d44ce8576afd8cf32405535082d8d7b7f54ac67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_44f4dd149ca3f3cbb80b7bd3a79d114dac39f927/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/olivermensah/Development/Android-SDK/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_88fdd3d74ff55e62739599b5b42548cec3c83067/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/54b1986f1e9c902f8e5fc62fc1c708c8f6030e88/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_399231fa04ccec13edcbd8475976f91b0e2bd1e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/fd015ac39787ca8774bec52a3ef3cb923f946b79/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="343ad59d9fb3bbf6ab99baafad859eb4b0fecc02">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2417b3ef8bdfa2dc5553f59abc64402c5d441e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/ce85e8a11eb8ddaeea0700419db241b6e722b290/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f0438bd0de0e5749dd4255275b7bfddf9d94dbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/b987aa55cc05d688fcb905a66ebece5c43071a22/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d69c9991deef24c820b79498ba61e60f64b781b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/1e82266f0571405dadf42a16e3a2a943f7c8a387/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b4cdc6963caece4a75c6554c6fc7bc708964c68a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/7bafb2b28c63ffde48e398b710e62252c09d32fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b390e326cf691e9279f59a9340dee2d929085e16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/olivermensah/Development/Android-SDK/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_707f3b281e3482115bc582c7961e63fbdd7322a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b77e58cc3f5ef83f3ec62027140dd4e3e4a09391/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/b4dd816cc8d1418f470b27c7f3482642c3f50177/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7308fa2037dac339ea04b90cdd17e87f835ea294">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6119df93a0f3fe8c2ad017ec8d7f77efd0305e7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/1f756a6c354af5dbe1755ab2ffb897cdd4ceea14/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdc39fe6b72b089d6c79280a75be2923a500e66d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_40cd841683009eff2f629e79f3f3e9e23f8e8d68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/6e09a32c89b80219b16381eddc7bfcb37438affe/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a7c5dfc89e64cd7267b72b6afd871216bbdc243e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_1cba986da2b948c478dda620e469394466a4985a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/d63589e85f81cf76d3ccdb4dd953e4510e2712c2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2337423bde28b6143ac30bb675717b0d8f6aeed7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/e60336bf1e90136e7a7f2b93c13107cd61fe70db/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c916cdf8bdb5f34b66949af3a841093b43fbd137/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/df3d2dd224991c7856d0590fcd42388a30aa768a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2402510d6241077e2576c99cbf86c29b5add9cee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_8f77830f6aff972b5f69e10816daba43d44f4248/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/6e6c81638885fd2571585aa2426fe0786f13ca3b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ff40ce61e09b3ec3d684ad2be5525a6cbeb0b697/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.twitter/twitter-text/1.13.0/78415b95ae3184c5926d593feab64bfc0b73b2dd/twitter-text-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="78415b95ae3184c5926d593feab64bfc0b73b2dd">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/twitter-text-1.13.0_a96e0ce9ee27491f59f3b8b20f146281b89b8140/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/cb9b2d88bc61e0b41e7da7c7dddbb05b0a8224a2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_95f2c18a93bcf43b678fb0dcd98c82b3ded8eb2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.1_98f7de0d551423ea4dbac8b463681fd8c22eb8d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/a77f4276049d7ad241d7bf8569163b2257c3804c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_062b904b1df6bafa9cbdba82d2cd186bb5a796d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/6b5318d17dba406dad243fd0bcf5b02d07c5220e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="895c63ba9782b04f0c5da69205216f6ec87119eb">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f808731a957b06998b29d0ce3a70454def1fbd54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3c573496ae2e723c0fe3ffedad14c003c44e9f98">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18e38fabf476c16c752c0c3727cbf11976c3ae25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/df969034b2ccc770ee9cb5792aab4e4fe1cb2f34/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0558e5b6c171bd6719581340f9ac6be4af5ae265">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3ca40b7ef6e4d8f65f07090d7682a1a090193b8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/4fa16bf4635a1a9d9b6d14d13ec4d8a987a0d880/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c6047a34af07d6ec4e950ba1dc70ce23ac65ecaa">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_280f9fd20baf7a8fe05958aa66710f72700b429e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/9edb78f711ac2212bb8566e14b1a90eee9b3ebdb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a2c0f9be4f183b99313f3c75a4f7e566927f9c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/d1a484b412d8c05cef26e0fd169e8188c5f63936/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8614f60d29e282ec41b5bb3cde102cd3ef0504a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_cb1111f820e8a5da739a93ffed0000206da1f047/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/88596f8ca61331442a77b08b4004f2617d0ed5ba/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a10ed1f1cff990ef081263ad33f13dc6c207eb4e">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_74f90da4ea9f75256f988d99f64f94c5136bd7aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/54fe92c3f20d57d4b3e795ad2fe944417bbcffff/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb2e8ce7d987f760e868fa284b883239e36d9d72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.2_5a102827b82a33284150314c6fe05fe0ac931956/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/a7e3f6d6cb913b0d2ba9f5c6326710607ea9d04a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_501306d26f950077bd7fac0e619420abe64cd09f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olivermensah/.android/build-cache/58d150159c91e8d95c1b1c64e0a14a7a8e2f6034/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83a71a311e48c9bd393bfaf93c960edb86abfff6/classes.dex" />
+    </item>
+
+</items>

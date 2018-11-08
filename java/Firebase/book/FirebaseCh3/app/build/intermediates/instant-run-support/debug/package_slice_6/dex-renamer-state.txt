@@ -1,0 +1,4 @@
+#Thu Nov 08 21:01:41 GMT 2018
+base.0=/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh3/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
+renamed.0=classes.dex
+file.0=/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh3/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex

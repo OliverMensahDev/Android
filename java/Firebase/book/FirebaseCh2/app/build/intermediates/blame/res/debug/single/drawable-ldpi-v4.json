@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_mail_white_24dp.png",
+        "source": "/Users/laurencemoroney/.android/build-cache/49b6ee1ef44fb4d08be85b92fea474f9fa3459b9/output/res/drawable-ldpi-v4/ic_mail_white_24dp.png"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_facebook_white_22dp.png",
+        "source": "/home/olivermensah/.android/build-cache/790cf2acf7c0bcd519afd63fe1786a07940c3f98/output/res/drawable-ldpi-v4/ic_facebook_white_22dp.png"
+    },
+    {
+        "merged": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_googleg_color_24dp.png",
+        "source": "/Users/laurencemoroney/.android/build-cache/49b6ee1ef44fb4d08be85b92fea474f9fa3459b9/output/res/drawable-ldpi-v4/ic_googleg_color_24dp.png"
+    },
+    {
+        "merged": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_facebook_white_22dp.png",
+        "source": "/Users/laurencemoroney/.android/build-cache/49b6ee1ef44fb4d08be85b92fea474f9fa3459b9/output/res/drawable-ldpi-v4/ic_facebook_white_22dp.png"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_googleg_color_24dp.png",
+        "source": "/home/olivermensah/.android/build-cache/790cf2acf7c0bcd519afd63fe1786a07940c3f98/output/res/drawable-ldpi-v4/ic_googleg_color_24dp.png"
+    },
+    {
+        "merged": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_twitter_bird_white_24dp.png",
+        "source": "/Users/laurencemoroney/.android/build-cache/49b6ee1ef44fb4d08be85b92fea474f9fa3459b9/output/res/drawable-ldpi-v4/ic_twitter_bird_white_24dp.png"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_mail_white_24dp.png",
+        "source": "/home/olivermensah/.android/build-cache/790cf2acf7c0bcd519afd63fe1786a07940c3f98/output/res/drawable-ldpi-v4/ic_mail_white_24dp.png"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_twitter_bird_white_24dp.png",
+        "source": "/home/olivermensah/.android/build-cache/790cf2acf7c0bcd519afd63fe1786a07940c3f98/output/res/drawable-ldpi-v4/ic_twitter_bird_white_24dp.png"
+    }
+]

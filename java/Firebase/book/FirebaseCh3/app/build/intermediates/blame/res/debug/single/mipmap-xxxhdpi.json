@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh3/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh3/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

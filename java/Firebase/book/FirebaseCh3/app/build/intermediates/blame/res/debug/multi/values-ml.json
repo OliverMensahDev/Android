@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 218,
+                    "endOffset": 319
+                },
+                "from": {
+                    "file": "/home/olivermensah/.android/build-cache/72c5f87e03cec1562055e43877ba5ccf00381dd4/output/res/values-ml/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 218,
+                        "endOffset": 503
+                    }
+                }
+            }
+        ]
+    }
+]

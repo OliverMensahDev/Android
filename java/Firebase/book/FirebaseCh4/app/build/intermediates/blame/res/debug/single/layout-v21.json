@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh4/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/olivermensah/.android/build-cache/a77f4276049d7ad241d7bf8569163b2257c3804c/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh4/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/olivermensah/.android/build-cache/a77f4276049d7ad241d7bf8569163b2257c3804c/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh4/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/olivermensah/.android/build-cache/a77f4276049d7ad241d7bf8569163b2257c3804c/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh4/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/olivermensah/.android/build-cache/a77f4276049d7ad241d7bf8569163b2257c3804c/output/res/layout-v21/notification_action.xml"
+    }
+]

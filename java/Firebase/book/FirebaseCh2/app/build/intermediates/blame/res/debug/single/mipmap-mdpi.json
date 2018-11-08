@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

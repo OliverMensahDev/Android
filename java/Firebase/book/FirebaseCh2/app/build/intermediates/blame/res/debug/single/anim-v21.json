@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/olivermensah/.android/build-cache/1e82266f0571405dadf42a16e3a2a943f7c8a387/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/media/olivermensah/Development/Github/Android/java/Firebase/book/FirebaseCh2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/olivermensah/.android/build-cache/1e82266f0571405dadf42a16e3a2a943f7c8a387/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/laurencemoroney/.android/build-cache/d73b6a44cefeb3e93f0d3aa53bd35e45ee0fc468/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/laurencemoroney/Desktop/booksource/FirebaseCh2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/laurencemoroney/.android/build-cache/d73b6a44cefeb3e93f0d3aa53bd35e45ee0fc468/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]
