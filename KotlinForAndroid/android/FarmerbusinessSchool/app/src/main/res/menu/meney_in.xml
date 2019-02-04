@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item1
+            android:icon="@android:drawable/ic_menu_add"
+            android:id="@+id/add_new_money_in"
+            app:showAsAction="never"
+            android:title="@string/add_new_money_in"/>
+    <item1
+            android:icon="@android:drawable/ic_menu_add"
+            android:id="@+id/add_new_money_in_item"
+            app:showAsAction="never"
+            android:title="@string/add_new_money_in_item"/>
+    <item1
+            android:icon="@android:drawable/ic_menu_add"
+            android:id="@+id/view_money_in_items"
+            app:showAsAction="never"
+            android:title="@string/view_money_in_items"/>
+</menu>

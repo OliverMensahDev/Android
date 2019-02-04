@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Farmer Business School</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login">Login</string>
+    <string name="phone">Phone Number</string>
+    <string name="pincode">Pin Code</string>
+    <string name="title_login">Farmer Login</string>
+    <string name="noAccount">Not Having an Account?</string>
+    <string name="register">Register</string>
+    <string name="title_register">Farmer Register</string>
+    <string name="name">Farmer Name</string>
+    <string name="title_educationHub">Education Hub</string>
+    <string name="title_calender">Calender</string>
+    <string name="title_account">Accounts</string>
+    <string name="title_more">More</string>
+    <string name="search_for_educational_material">Search For Educational Material</string>
+    <string name="country_of_origin">Country of Origin</string>
+    <string name="region">Region</string>
+    <string name="district">District</string>
+    <string name="town_locality">Town/Locality</string>
+    <string name="land_acres">Farm Acres</string>
+    <string name="main_crop">Main Crop</string>
+    <string name="default_crop">Cocoa</string>
+    <string name="save"><![CDATA[Save & Continue]]></string>
+    <string name="diversified">Do you have either maize or Cassava as Commercial Crops?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_financial_account">Financial Account Summary</string>
+    <string name="setup_crops">Kindly Let\'s setup the following crops</string>
+    <string name="cassava">Cassava</string>
+    <string name="maize">Maize</string>
+    <string name="description">Description</string>
+    <string name="settings">Account Settings</string>
+    <string name="money_in">Money In</string>
+    <string name="money_out">Money Out</string>
+    <string name="netProfit">Net Profit</string>
+    <string name="net_loss">Net Loss</string>
+    <string name="onboard">Onboard</string>
+    <string name="financial_details">Go To Financial Details</string>
+    <string name="crop_calendar">Crop Calender</string>
+    <string name="all_financial_records">All Financial Records</string>
+    <string name="add_new_money_out">Add New Money Out</string>
+    <string name="add_new_money_in">Add New Money In</string>
+    <string name="item_name">Item Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="total_price">Total Price</string>
+    <string name="date">Date:</string>
+    <string name="recent_money_in">Recent Money In</string>
+    <string name="before_production">Expected Before Production</string>
+    <string name="after_production">Evaluation After Harvest</string>
+    <string name="recent_money_out">Recent Money Out</string>
+    <string name="unitcost">Unit Cost</string>
+    <string name="add_new_money_in_item">Add Money In Item</string>
+    <string name="add_new_money_out_item">Add Money Out Item</string>
+    <string name="category">Category</string>
+    <string name="Input">Input</string>
+    <string name="labour">Labour</string>
+    <string name="view_money_in_items">View Money In Items</string>
+    <string name="view_money_out_items">View Money Out Items</string>
+
+    <string-array name="region_arrays">
+        <item>Select</item>
+        <item>Greater Accra</item>
+        <item>Brong Ahafo</item>
+        <item>Western</item>
+        <item>Ashanti</item>
+        <item>Central</item>
+        <item>Northern</item>
+        <item>Upper East</item>
+        <item>Upper West</item>
+        <item>Volta</item>
+        <item>Eastern</item>
+    </string-array>
+</resources>
